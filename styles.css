@@ -1,45 +1,105 @@
 * {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 15px 30px;
-  font-family: "Work Sans";
-  font-size: 20px;
-  word-spacing: normal;
+  margin: 0 20px;
+  padding: 0 auto;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  background: url(./assets/images/background-pattern-desktop.svg) no-repeat top fixed;
+
 }
 
-/* Plus icon */
+p {
+  font-size: 16px;
+}
 
-.big-faqs {
-  color: hsl(292, 42%, 14%);
+.main-container {
+  margin: 80px 70px;
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  justify-content: center;
+  box-shadow: 10px 10px hsl(292, 16%, 49%);
+
+}
+
+
+.first-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-star {
+  margin-right: 20px;
+}
+
+.FAQs h1 {
   font-weight: bold;
-  margin-bottom: 15px;
 }
+
+.what-is-fem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 
 .whats-fem {
-  color: hsl(292, 42%, 14%);
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+}
+
+.fem-description {
+  word-spacing: 0.15px;
+  font-family: "Work Sans";
+  color: hsl(216, 15%, 48%);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faqs-1,
+.faqs-2,
+.faqs-3 {
+  font-weight: bold;
+}
+
+.faqs-1:hover,
+.faqs-2:hover,
+.faqs-3:hover {
+  color: hsl(292, 16%, 49%);
+  cursor: pointer;
 }
 
 
 
+/* Media Queries */
 
 
-
-/* ### Font
-
-- Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- Weights: 400, 600, 700 */
-
-/* ## Colors
-
-- White: hsl(0, 0%, 100%)
-- Light pink: hsl(275, 100%, 97%)
-- Grayish purple: hsl(292, 16%, 49%)
-- Dark purple: hsl(292, 42%, 14%) */
 
 /* Media Queries */
 /* Mobile: 375px */
+
+
+
 /* Desktop: 1440px */
