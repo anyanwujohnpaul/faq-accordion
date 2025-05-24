@@ -2,4 +2,57 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Work sans, Arial; 
 }
+
+body {
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+}
+
+
+parent-container {
+ display: flex;
+flex-direction: column;
+}
+.icon-star {
+  width: 30px;
+  height: 30px;
+}
+
+ 
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  margin-left: 15px;
+  font-weight: 30px;
+  font-weight: bold;
+  font-family: Work Sans;
+  font-size: 30px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.fe-description > p {
+  width: 500px;
+  color: hsl(292, 16%, 49%);
+  
+}
+
+.what-is {
+  margin-top: 20px;
+  vertical-align: top;
+}
+
+.icon-minus {
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+
