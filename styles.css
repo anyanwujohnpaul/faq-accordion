@@ -33,8 +33,8 @@ p {
   border-radius: 15px;
   width: 40%;
   height: 40%;
-  padding: 20px 40px;
-  box-shadow: 5px 5px 15px hsl(294, 25%, 71%);
+  padding: 20px 30px;
+  box-shadow: 5px 5px 10px hsl(294, 25%, 71%);
 }
 
 .FAQS {
