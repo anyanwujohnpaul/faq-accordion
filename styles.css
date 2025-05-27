@@ -33,7 +33,7 @@ p {
   border-radius: 15px;
   width: 40%;
   height: 40%;
-  padding: 20px 40px;
+  padding: 20px 30px;
   box-shadow: 5px 5px 10px hsl(294, 25%, 71%);
 }
 
@@ -56,18 +56,18 @@ p {
   width: 25px;
 }
 
-.icon-minus {
+/* .icon-minus {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-}
+} */
 
 .intro-to-fem {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .icon-star {
@@ -79,7 +79,7 @@ p {
 .intro-desc {
   font-size: 16px;
   font-weight: bold;
-  margin-top: 20px;
+
 }
 
 .fem-description-content {
