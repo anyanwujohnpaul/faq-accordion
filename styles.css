@@ -120,6 +120,10 @@ hr {
     width: 45%;
     height: 30%;
   }
+
+   .icon-plus, .icon-minus {
+    margin-left: 50px;
+  }
 }
 
 /* Mobile: 375px*/
